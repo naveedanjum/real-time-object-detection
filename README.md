@@ -10,6 +10,7 @@ This project is a FastAPI-based web application that performs real-time object d
 - Organized project structure following best OOP practices
 
 ## Project Structure
+```plaintext
 object_detection_app/
 ├── app/
 │ ├── init.py
@@ -28,7 +29,7 @@ object_detection_app/
 │ │ ├── init.py
 │ │ ├── file_utils.py
 └── run.py
-
+```
 
 ## Getting Started
 
