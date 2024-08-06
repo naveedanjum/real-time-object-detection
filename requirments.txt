@@ -3,3 +3,6 @@ uvicorn
 opencv-python-headless
 ultralytics
 psutil
+pytest
+httpx
+pytest-asyncio

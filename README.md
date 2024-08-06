@@ -28,6 +28,11 @@ object_detection_app/
 │ ├── utils/
 │ │ ├── init.py
 │ │ ├── file_utils.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_camera.py
+│   ├── test_detection.py
+│   ├── test_endpoints.py
 └── run.py
 ```
 
