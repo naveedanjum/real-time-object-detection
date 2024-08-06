@@ -1,3 +1,4 @@
+import uvicorn
 from fastapi import FastAPI
 from app.api.endpoints import create_routes
 
@@ -7,5 +8,4 @@ class ObjectDetectionApp:
         create_routes(self.app)
 
     def run(self, host: str = "0.0.0.0", port: int = 8000):
-        import uvicorn
         uvicorn.run(self.app, host=host, port=port)
