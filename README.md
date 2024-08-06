@@ -4,7 +4,7 @@ This project is a FastAPI-based web application that performs real-time object d
 
 ## Features
 
-- Real-time object detection using YOLOv8
+- Real-time object detection using YOLOv10
 - Save detections with a UTC timestamp in a daily JSON file
 - Save annotated frames as images
 - Organized project structure following best OOP practices
@@ -71,5 +71,11 @@ To start the application, run:
 
 ```bash
 python run.py
+```
+
+To run unit tests:
+
+```bash
+pytest
 
 
